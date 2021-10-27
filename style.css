@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d6d6d6;
+}
+
+header{
+    position: static;
+}
+
+
+/* SMARTPHONE */
+@media screen and (min-width: 480px) {
+    
+    .logo {
+        width: 32%;
+        margin: auto;
+        display: block;
+    }
+
+    .cabecalho {
+        width: 100%;
+        background-color: #004a2f;
+        padding: 14px;
+
+    }
+
+    .menu ul{
+        background-color: #2f7958;
+        list-style: none;
+        text-align: center;
+    }
+
+    .menu ul li{
+        display: inline-block;
+    }
+
+    .menu ul li a{
+        padding: 12px 6px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 300;
+        /* TEXT */
+        font-family: 'Open Sans', sans-serif;
+        font-size: 13px;
+        color: rgb(219, 219, 219);
+    }
+
+    .menu ul li a:hover{
+        background-color: #389169;
+        transition: ease-in-out .200s;
+    }
+
+    .•{
+        display: none;
+    }
+
+    .logo2{
+       width: 0%;
+    }
+
+}
+
+/* TABLETS */
+@media screen and (min-width: 768px){
+    .logo{
+        width: 14%;
+        position: absolute;
+        top: 10%;
+        left: 32px;
+    }
+
+    .cabecalho {
+        width: 100%;
+        background-color: #2f7958;
+        padding: 19px;
+    }
+
+    .menu ul{
+        background-color: #004a2f;
+        list-style: none;
+        padding-left: 10%;
+    }
+
+    .menu ul li{
+        display: inline-block;
+    }
+
+    .menu ul li a{
+        padding: 25px 6px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 13px;
+        /* TEXT */
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        color: rgb(219, 219, 219);
+    }
+
+    .menu ul li a:hover{
+        background-color: #389169;
+        transition: ease-in-out .200s;
+    }
+
+    .•{
+        display: inline-block;
+        margin-left: 10px;
+        color: rgb(219, 219, 219);
+    }
+
+    .logo2{
+        width: 0%;
+    }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+    .logo2{
+        width: 25%;
+        position: absolute;
+        top: 7.5%;
+    }
+    .logo{
+        width: 0%;
+    }
+
+    .cabecalho {
+        width: 100%;
+        background-color: #2f7958;
+        padding: 17px;
+    }
+
+    .menu ul{
+        background-color: #004a2f;
+        list-style: none;
+        padding-left: 9%;
+    }
+
+    .menu ul li{
+        display: inline-block;
+        padding-right: 2px;
+    }
+
+    .menu ul li a{
+        position: relative;
+        padding: 25px 6px;
+        display: inline-block;
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 6px;
+        /* TEXT */
+        font-family: 'Open Sans', sans-serif;
+        font-size: 18px;
+        color: rgb(219, 219, 219);
+    }
+
+    .menu ul li a:hover{
+        background-color: #389169;
+        transition: ease-in-out .200s;
+    }
+
+    .•{
+        display: inline-block;
+        margin-left: 4px;
+        color: rgb(219, 219, 219);
+    }
+}
